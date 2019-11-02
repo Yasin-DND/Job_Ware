@@ -7,25 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0419F084236E067E003A12CC /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419F083236E067E003A12CC /* TipViewController.swift */; };
+		0419F086236E1B53003A12CC /* NavTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419F085236E1B53003A12CC /* NavTypeButton.swift */; };
+		0419F088236E2250003A12CC /* MyJobsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419F087236E2250003A12CC /* MyJobsTableViewController.swift */; };
+		04DACB0A236DA0A60095642E /* EmpSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DACB07236DA0A60095642E /* EmpSignUpViewController.swift */; };
+		04DACB0B236DA0A60095642E /* EmpLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DACB08236DA0A60095642E /* EmpLoginViewController.swift */; };
+		04DACB0C236DA0A60095642E /* JobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DACB09236DA0A60095642E /* JobTableViewController.swift */; };
+		04DACB0E236DAC2B0095642E /* JobDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DACB0D236DAC2B0095642E /* JobDetailsViewController.swift */; };
 		04E005A1236737F600FF95BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E005A0236737F600FF95BB /* AppDelegate.swift */; };
 		04E005A3236737F600FF95BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E005A2236737F600FF95BB /* SceneDelegate.swift */; };
-		04E005A5236737F600FF95BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E005A4236737F600FF95BB /* ViewController.swift */; };
-		04E005A8236737F600FF95BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E005A6236737F600FF95BB /* Main.storyboard */; };
 		04E005AB236737F600FF95BB /* Job_Ware.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E005A9236737F600FF95BB /* Job_Ware.xcdatamodeld */; };
-		04E005AD236737F700FF95BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E005AC236737F700FF95BB /* Assets.xcassets */; };
-		04E005B0236737F700FF95BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E005AE236737F700FF95BB /* LaunchScreen.storyboard */; };
+		04E005BC23673D5D00FF95BB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E005B823673D5D00FF95BB /* SignUpViewController.swift */; };
+		04E005BD23673D5D00FF95BB /* AddJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E005B923673D5D00FF95BB /* AddJobViewController.swift */; };
+		04E005BE23673D5D00FF95BB /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E005BA23673D5D00FF95BB /* DashBoardViewController.swift */; };
+		04E005BF23673D5D00FF95BB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E005BB23673D5D00FF95BB /* LoginViewController.swift */; };
+		04E005C623673D6A00FF95BB /* UserClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E005C123673D6900FF95BB /* UserClass.swift */; };
+		04E005C723673D6A00FF95BB /* JobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E005C223673D6900FF95BB /* JobView.swift */; };
+		04E005C823673D6A00FF95BB /* JobClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E005C323673D6900FF95BB /* JobClass.swift */; };
+		04E005C923673D6A00FF95BB /* DNDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E005C423673D6900FF95BB /* DNDButton.swift */; };
+		04E005CA23673D6A00FF95BB /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E005C523673D6900FF95BB /* UITextField.swift */; };
+		04E005D323673DAB00FF95BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E005D223673DAB00FF95BB /* Main.storyboard */; };
+		04E005D523673DBB00FF95BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E005D423673DBA00FF95BB /* Assets.xcassets */; };
+		04E005D723673DC200FF95BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E005D623673DC100FF95BB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0419F083236E067E003A12CC /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
+		0419F085236E1B53003A12CC /* NavTypeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavTypeButton.swift; sourceTree = "<group>"; };
+		0419F087236E2250003A12CC /* MyJobsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJobsTableViewController.swift; sourceTree = "<group>"; };
+		04DACB07236DA0A60095642E /* EmpSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpSignUpViewController.swift; sourceTree = "<group>"; };
+		04DACB08236DA0A60095642E /* EmpLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpLoginViewController.swift; sourceTree = "<group>"; };
+		04DACB09236DA0A60095642E /* JobTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobTableViewController.swift; sourceTree = "<group>"; };
+		04DACB0D236DAC2B0095642E /* JobDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsViewController.swift; sourceTree = "<group>"; };
 		04E0059D236737F600FF95BB /* Job_Ware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Job_Ware.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E005A0236737F600FF95BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E005A2236737F600FF95BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04E005A4236737F600FF95BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04E005A7236737F600FF95BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04E005AA236737F600FF95BB /* Job_Ware.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Job_Ware.xcdatamodel; sourceTree = "<group>"; };
-		04E005AC236737F700FF95BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04E005AF236737F700FF95BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E005B1236737F700FF95BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E005B823673D5D00FF95BB /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		04E005B923673D5D00FF95BB /* AddJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddJobViewController.swift; sourceTree = "<group>"; };
+		04E005BA23673D5D00FF95BB /* DashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
+		04E005BB23673D5D00FF95BB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		04E005C123673D6900FF95BB /* UserClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserClass.swift; sourceTree = "<group>"; };
+		04E005C223673D6900FF95BB /* JobView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobView.swift; sourceTree = "<group>"; };
+		04E005C323673D6900FF95BB /* JobClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobClass.swift; sourceTree = "<group>"; };
+		04E005C423673D6900FF95BB /* DNDButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNDButton.swift; sourceTree = "<group>"; };
+		04E005C523673D6900FF95BB /* UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		04E005D223673DAB00FF95BB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04E005D423673DBA00FF95BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E005D623673DC100FF95BB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +69,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04DACB06236DA0A60095642E /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				04DACB07236DA0A60095642E /* EmpSignUpViewController.swift */,
+				04DACB08236DA0A60095642E /* EmpLoginViewController.swift */,
+				04DACB09236DA0A60095642E /* JobTableViewController.swift */,
+				04DACB0D236DAC2B0095642E /* JobDetailsViewController.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
 		04E00594236737F600FF95BB = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +99,44 @@
 		04E0059F236737F600FF95BB /* Job_Ware */ = {
 			isa = PBXGroup;
 			children = (
+				04DACB06236DA0A60095642E /* Employee */,
+				04E005B723673D5D00FF95BB /* Company */,
+				04E005C023673D6900FF95BB /* Custom Classes */,
 				04E005A0236737F600FF95BB /* AppDelegate.swift */,
 				04E005A2236737F600FF95BB /* SceneDelegate.swift */,
-				04E005A4236737F600FF95BB /* ViewController.swift */,
-				04E005A6236737F600FF95BB /* Main.storyboard */,
-				04E005AC236737F700FF95BB /* Assets.xcassets */,
-				04E005AE236737F700FF95BB /* LaunchScreen.storyboard */,
+				04E005D423673DBA00FF95BB /* Assets.xcassets */,
+				04E005D623673DC100FF95BB /* LaunchScreen.storyboard */,
+				04E005D223673DAB00FF95BB /* Main.storyboard */,
 				04E005B1236737F700FF95BB /* Info.plist */,
 				04E005A9236737F600FF95BB /* Job_Ware.xcdatamodeld */,
 			);
 			path = Job_Ware;
+			sourceTree = "<group>";
+		};
+		04E005B723673D5D00FF95BB /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				04E005B823673D5D00FF95BB /* SignUpViewController.swift */,
+				04E005B923673D5D00FF95BB /* AddJobViewController.swift */,
+				04E005BA23673D5D00FF95BB /* DashBoardViewController.swift */,
+				04E005BB23673D5D00FF95BB /* LoginViewController.swift */,
+				0419F083236E067E003A12CC /* TipViewController.swift */,
+				0419F087236E2250003A12CC /* MyJobsTableViewController.swift */,
+			);
+			path = Company;
+			sourceTree = "<group>";
+		};
+		04E005C023673D6900FF95BB /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04E005C123673D6900FF95BB /* UserClass.swift */,
+				04E005C223673D6900FF95BB /* JobView.swift */,
+				04E005C323673D6900FF95BB /* JobClass.swift */,
+				04E005C423673D6900FF95BB /* DNDButton.swift */,
+				04E005C523673D6900FF95BB /* UITextField.swift */,
+				0419F085236E1B53003A12CC /* NavTypeButton.swift */,
+			);
+			path = "Custom Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +197,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E005B0236737F700FF95BB /* LaunchScreen.storyboard in Resources */,
-				04E005AD236737F700FF95BB /* Assets.xcassets in Resources */,
-				04E005A8236737F600FF95BB /* Main.storyboard in Resources */,
+				04E005D723673DC200FF95BB /* LaunchScreen.storyboard in Resources */,
+				04E005D523673DBB00FF95BB /* Assets.xcassets in Resources */,
+				04E005D323673DAB00FF95BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,33 +210,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E005A5236737F600FF95BB /* ViewController.swift in Sources */,
+				04DACB0A236DA0A60095642E /* EmpSignUpViewController.swift in Sources */,
 				04E005A1236737F600FF95BB /* AppDelegate.swift in Sources */,
+				04DACB0C236DA0A60095642E /* JobTableViewController.swift in Sources */,
 				04E005AB236737F600FF95BB /* Job_Ware.xcdatamodeld in Sources */,
+				04E005BE23673D5D00FF95BB /* DashBoardViewController.swift in Sources */,
+				0419F086236E1B53003A12CC /* NavTypeButton.swift in Sources */,
+				04E005C723673D6A00FF95BB /* JobView.swift in Sources */,
+				0419F084236E067E003A12CC /* TipViewController.swift in Sources */,
+				04E005CA23673D6A00FF95BB /* UITextField.swift in Sources */,
+				0419F088236E2250003A12CC /* MyJobsTableViewController.swift in Sources */,
+				04E005BF23673D5D00FF95BB /* LoginViewController.swift in Sources */,
+				04E005C623673D6A00FF95BB /* UserClass.swift in Sources */,
+				04DACB0E236DAC2B0095642E /* JobDetailsViewController.swift in Sources */,
+				04E005C823673D6A00FF95BB /* JobClass.swift in Sources */,
+				04E005C923673D6A00FF95BB /* DNDButton.swift in Sources */,
 				04E005A3236737F600FF95BB /* SceneDelegate.swift in Sources */,
+				04DACB0B236DA0A60095642E /* EmpLoginViewController.swift in Sources */,
+				04E005BD23673D5D00FF95BB /* AddJobViewController.swift in Sources */,
+				04E005BC23673D5D00FF95BB /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		04E005A6236737F600FF95BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04E005A7236737F600FF95BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		04E005AE236737F700FF95BB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04E005AF236737F700FF95BB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		04E005B2236737F700FF95BB /* Debug */ = {
