@@ -11,15 +11,19 @@ import UIKit
 class JobDetailsViewController: UIViewController {
 
     var jObject = JobClass()
-    @IBOutlet weak var titleText : UILabel!
-    @IBOutlet weak var detailsText : UILabel!
-    @IBOutlet weak var contactText : UILabel!
+    @IBOutlet weak var titleText : UIButton!
+    @IBOutlet weak var detailsText : UIButton!
+    @IBOutlet weak var contactText : UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        titleText.text = jObject.jobTitle
-        detailsText.text = jObject.jobDetails
-        contactText.text = jObject.contactDetail
-        print(jObject)
+        titleText.setTitle(jObject.jobTitle, for: .normal)
+        detailsText.setTitle(jObject.jobDetails, for: .normal)
+        contactText.setTitle(jObject.contactDetail, for: .normal)
+        
+    }
+    @IBAction func callButton(sender: AnyObject) {
+        //UIApplication.shared.openURL(NSURL(string: "tel://9809088798")! as URL)
+
     }
 }

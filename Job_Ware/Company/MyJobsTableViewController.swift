@@ -22,18 +22,20 @@ class MyJobsTableViewController: UITableViewController {
 
       }
 
-      override func viewWillAppear(_ animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
+        jobArray = []
+        array = []
         fetchData()
         myJobs()
 
-      }
-      override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int)-> Int {
+    }
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int)-> Int {
         return array.count
-      }
+    }
 
       
       
-      override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
           let cell = tableView.dequeueReusableCell(withIdentifier: "JobView", for: indexPath)
           let label = cell.viewWithTag(1000) as! UILabel
           let label1 = cell.viewWithTag(1001) as! UILabel
@@ -43,10 +45,12 @@ class MyJobsTableViewController: UITableViewController {
           label1.text = job.value(forKey: "jobDetail") as! String
           label2.text = job.value(forKey: "jobContact") as! String
           return cell
-      }
-      override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
-          return 200.0
-      }
+    }
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
+        return 200.0
+    }
+    
+
     
     func fetchData(){
     guard let appDelegate =
@@ -66,18 +70,11 @@ class MyJobsTableViewController: UITableViewController {
     func myJobs(){
         print(jobArray.count)
         for i in jobArray{
-            print("Yahan Tak agaya\(postedBy)")
             var temp = i.value(forKey: "postedBy") as! String
-            print(i.value(forKey: "postedBy"))
-            
             if temp == postedBy{
                 array.append(i)
             }
         }
         
     }
-    
-    
-   
-
 }

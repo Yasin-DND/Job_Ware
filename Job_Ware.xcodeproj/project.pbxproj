@@ -10,6 +10,7 @@
 		0419F084236E067E003A12CC /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419F083236E067E003A12CC /* TipViewController.swift */; };
 		0419F086236E1B53003A12CC /* NavTypeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419F085236E1B53003A12CC /* NavTypeButton.swift */; };
 		0419F088236E2250003A12CC /* MyJobsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419F087236E2250003A12CC /* MyJobsTableViewController.swift */; };
+		0473CC6E236EC1530036B434 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473CC6D236EC1530036B434 /* ProfileViewController.swift */; };
 		04DACB0A236DA0A60095642E /* EmpSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DACB07236DA0A60095642E /* EmpSignUpViewController.swift */; };
 		04DACB0B236DA0A60095642E /* EmpLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DACB08236DA0A60095642E /* EmpLoginViewController.swift */; };
 		04DACB0C236DA0A60095642E /* JobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DACB09236DA0A60095642E /* JobTableViewController.swift */; };
@@ -35,6 +36,7 @@
 		0419F083236E067E003A12CC /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		0419F085236E1B53003A12CC /* NavTypeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavTypeButton.swift; sourceTree = "<group>"; };
 		0419F087236E2250003A12CC /* MyJobsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJobsTableViewController.swift; sourceTree = "<group>"; };
+		0473CC6D236EC1530036B434 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		04DACB07236DA0A60095642E /* EmpSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpSignUpViewController.swift; sourceTree = "<group>"; };
 		04DACB08236DA0A60095642E /* EmpLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpLoginViewController.swift; sourceTree = "<group>"; };
 		04DACB09236DA0A60095642E /* JobTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobTableViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				04E005BB23673D5D00FF95BB /* LoginViewController.swift */,
 				0419F083236E067E003A12CC /* TipViewController.swift */,
 				0419F087236E2250003A12CC /* MyJobsTableViewController.swift */,
+				0473CC6D236EC1530036B434 /* ProfileViewController.swift */,
 			);
 			path = Company;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			files = (
 				04DACB0A236DA0A60095642E /* EmpSignUpViewController.swift in Sources */,
 				04E005A1236737F600FF95BB /* AppDelegate.swift in Sources */,
+				0473CC6E236EC1530036B434 /* ProfileViewController.swift in Sources */,
 				04DACB0C236DA0A60095642E /* JobTableViewController.swift in Sources */,
 				04E005AB236737F600FF95BB /* Job_Ware.xcdatamodeld in Sources */,
 				04E005BE23673D5D00FF95BB /* DashBoardViewController.swift in Sources */,

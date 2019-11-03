@@ -22,5 +22,7 @@ class DNDButton : UIButton{
     func setupButton(){
         backgroundColor = UIColor.white.withAlphaComponent(1.0)
         layer.cornerRadius = 13
+        titleEdgeInsets = UIEdgeInsets(top: 10,left: 10,bottom: 10,right: 10)
+
     }
 }

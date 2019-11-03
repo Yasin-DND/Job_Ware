@@ -22,11 +22,12 @@ class DashBoardViewController: UIViewController{
         if segue.identifier == "DashToAdd"{
             let nav = segue.destination as! UINavigationController
             let controller = nav.topViewController as! AddJobViewController
-            //print(cObject)
             controller.postedBy = cObject
         }else if segue.identifier == "MyJobs"{
             let controller = segue.destination as! MyJobsTableViewController
-            //print(cObject)
+            controller.postedBy = cObject
+        }else if segue.identifier == "Profile"{
+            let controller = segue.destination as! ProfileViewController
             controller.postedBy = cObject
         }
     }
